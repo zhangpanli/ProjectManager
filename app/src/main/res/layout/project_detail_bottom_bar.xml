@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_main_tab_bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="55dp"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/bottom_bar">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/btn_tab_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="clickTitle"
+            android:text="详细"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/btn_tab_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="clickTitle"
+            android:text="项目人员"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/btn_tab_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="clickTitle"
+            android:text="签到记录"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/btn_tab_advance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="clickTitle"
+            android:text="预支记录"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

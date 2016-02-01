@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/item_member_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            android:textColor="@color/textColor"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/item_member_name_pinyin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名首字母"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="工程数:"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_member_project_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="工程数"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_member_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="备注"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
